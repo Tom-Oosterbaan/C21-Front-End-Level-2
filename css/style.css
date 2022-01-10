@@ -38,11 +38,7 @@ header{
     margin-top: 10px;
 }
 
-ul.main-menu{
-    list-style: none;
-    color:#4e4b4b;
-}
-
+ul.main-menu,
 ul.socials{
     list-style: none;
     color:#4e4b4b;
@@ -59,25 +55,19 @@ li.menu-item::after{
     color: #eaeaea;
 }
 
-li.menu-item a{
+li.menu-item a,
+li.social-item a{
     color:#4e4b4b;
 }
 
-li.menu-item a:hover{
+li.menu-item a:hover,
+li.social-item a:hover{
     color: #ca404f;
 }
 
 li.social-item{
     display: inline-block;
     padding-right: 15px;
-}
-
-li.social-item a:hover{
-    color: #ca404f;
-}
-
-li.social-item a{
-    color:#4e4b4b;
 }
 
 h1, h2, h3, h4, h5, h6{
