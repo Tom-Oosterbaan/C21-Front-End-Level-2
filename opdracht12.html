@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="document.querySelector('body').innerHTML = 'leeg!';">alles weg</button>
+    <div>
+        <p id="1">inhoud</p>
+        <button onclick="document.getElementById('1').innerHTML = 'bla bla';">vervang de tekst</button>
+        <p id="2">inhoud 2</p>
+        <button onclick="document.getElementById('2').innerHTML = 'bla bla 2';">vervang de tekst</button>
+        <p class="temp">inhoud 3</p>
+        <button onclick="document.querySelector('.temp').innerHTML = 'bla bla 3';">vervang de tekst</button>
+        <p class="temp2">inhoud 4</p>
+        <button onclick="document.querySelector('.temp2').innerHTML = 'bla bla 4';">vervang de tekst</button>
+    </div>
+</body>
+</html>
